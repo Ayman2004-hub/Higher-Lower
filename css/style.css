@@ -1,0 +1,73 @@
+:root {
+    --background-color: ;
+    --text-color: ;
+}
+
+.dices {
+    padding: 10px;
+    column-count: 5;
+    column-fill: balance;
+}
+
+.headings {
+    padding: 10px;
+    column-count: 5;
+    column-fill: balance;
+}
+
+.credits {
+    column-count: 5;
+    column-fill: balance;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.dices-computer-player {
+    column-count: 1;
+}
+
+.dices-player {
+    column-count: 1;
+}
+
+.message {
+    column-count: 3;
+    column-fill: balance;
+}
+
+.message-box {
+    border: 1px solid black;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.controls {
+    padding: 10px;
+    column-count: 6;
+    column-fill: balance;
+}
+
+.dice {
+    font-size: 64pt;
+}
+
+button {
+    width: 100%;
+}
+
+.styling-buttons {
+position: absolute;
+top: 50%;
+left: 40%;
+width: 350;
+text-align: center;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
